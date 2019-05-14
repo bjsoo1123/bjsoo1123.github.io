@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+    @import 'theme_color';
+    @import 'fonts';
+    @import 'mixin';
+    @import 'responsive';
+    
+    /* [Master Stylesheet - v1.0] */
+    
+    /* :: 1.0 Import Fonts */
+    
+    @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i');
+    
+    /* :: 2.0 Import All CSS */
+    
+    @import 'css/bootstrap.min.css';
+    @import 'css/classy-nav.css';
+    @import 'css/owl.carousel.min.css';
+    @import 'css/animate.css';
+    @import 'css/magnific-popup.css';
+    @import 'css/font-awesome.min.css';
+    @import 'css/audioplayer.css';
+    @import 'css/one-music-icon.css';
+    
+    /* :: 3.0 Base CSS */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card {
+        word-break:keep-all;
+    }
+    
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".btn-outline-secondary").click(function(){
+          alert("서비스 준비 중입니다!");
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About Me</h4>
+              <p class="text-muted">현재 동국대학교 수학과에 재학중이며 멋쟁이 사자처럼 7기로 활동하고 있다. 뛰어나신 동대 멋사 운영진분들 아래에서 교육받아 좋은 개발자로 비상하고파 푸드득 푸드득 날개짓을 하는 중이다.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <img src='얼굴.jpg' width=auto height=200px>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="https://www.instagram.com/b_jungsoo1123/" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Jungsoo</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    
+    <main role="main">
+      <div class="slide-img bg-img" style="background-image: url('dream.jpg'); background-size: cover;">
+        <section class="text-center">
+          <div class="container" style="padding-top: 50px; color: white;">
+            <h1 class="heading">My service</h1>
+            <p class="lead">제가 앞으로 만들고 싶은 서비스 입니다! <br> 시간이 지나면서 하나하나 완성이... 되겠죠?</p>
+              <p>
+                <a href="https://www.instagram.com/b_jungsoo1123/" class="btn btn-primary my-2">시작이 좋다!</a>
+              </p>
+          </div>    
+          <div class="album py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <img src='edu.jpg' class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">교육 취약 계층을 위한 서비스</h5>
+                      <p class="card-text">가정 형편이 어렵거나 부모님의 무관심 속에 방치되는 아이들에게 무상으로 교육을 시켜주는 서비스입니다. <br> 본 서비스는 아래와 같이 운영됩니다.</p>
+                      <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#hidden_text1" aria-controls="hidden_text1" aria-expanded="true" aria-label="Toggle navigation">자세히</button>
+                      <div class="collapse" id="hidden_text1">
+                        <p> 1. 대학생, 직장인 등 학생들을 교육할 수 있는 자격이 있는 일반인이 멘토가 된다. <br> 2. 담임 선생님이나 보육원 같은 단체에서 소외계층의 학생들을 등록한다. <br> 3. 멘토들은 등록된 학생 리스트를 보며 자신이 담당할 학생을 선택한다. <br> 4. 선택한 학생을 등록한 사람에게 연락이 가며 승인 하에 학생과 멘토가 만나 교육이 이루어진다.</p>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <img src='school.jpg' class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">학교 폭력 예방 및 대처 서비스</h5>
+                      <p class="card-text">학교 폭력을 당하는 학생들이 맘 편하게 얘기를 할 수 있는 공간을 만들어주고 신고한 후에 2차 피해가 발생하지 않도록 책임지는 서비스입니다. <br> 본 서비스는 아래와 같이 운영됩니다.</p>
+                        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#hidden_text2" aria-controls="hidden_text2" aria-expanded="true" aria-label="Toggle navigation">자세히</button>
+                        <div class="collapse" id="hidden_text2">
+                          <p> 1. 학생들이 회원가입을 할 때 본인 인증이 필요하되 모든 활동은 익명으로 활동한다. <br> 2. 채팅, 글쓰기, 신고의 기능이 있다. <br> 3. 글쓰기를 통해 자신의 학교 폭력 피해를 남길 수 있는 환경 구현. <br> 4. 신고가 접수될 경우 해당 학교로 연락하여 사고가 마무리 될 때까지 관찰 </p>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="card mb-4">
+                    <img src='사투리.jpg' class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">사투리 학습 서비스</h5>
+                      <p class="card-text">변역기와 비슷하게 자신이 한 말을 원하는 지방의 사투리로 들려주는 서비스입니다. <br> 본 서비스는 아래와 같이 운영됩니다.</p>
+                        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#hidden_text3" aria-controls="hidden_text3" aria-expanded="true" aria-label="Toggle navigation">자세히</button>
+                        <div class="collapse" id="hidden_text3">
+                          <p> 1. 이 기능을 구현하기 위해 딥 러닝을 수강하는 중이다. <br> 2. F 나올 각입니다.. <br> 3. 이 서비스는 차후 차근차근 계획하여 구현할 계획 </p>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
